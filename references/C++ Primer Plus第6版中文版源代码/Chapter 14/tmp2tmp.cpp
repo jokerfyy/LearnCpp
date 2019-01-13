@@ -51,6 +51,10 @@ int main()
     counts<int>();
     cout << "counts<double>() output:\n";
     counts<double>();
+    cout << "counts<float>() output:\n";
+    counts<float>();
+    cout << "counts<unsigned int>() output:\n";
+    counts<unsigned int>();
     // std::cin.get();
     return 0; 
 }
